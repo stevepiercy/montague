@@ -1,39 +1,41 @@
-============
 Contributing
 ============
 
-Contributions are welcome, and they are greatly appreciated! Every
-little bit helps, and credit will always be given.
+Contributions are welcome, and they are greatly appreciated! Every little bit
+helps, and credit will always be given.
 
 Bug reports
-===========
+-----------
 
-When `reporting a bug <https://github.com/inklesspen/montague/issues>`_ please include:
+When `reporting a bug <https://github.com/inklesspen/montague/issues>`_ please
+include:
 
-    * Your operating system name and version.
-    * Any details about your local setup that might be helpful in troubleshooting.
-    * Detailed steps to reproduce the bug.
+* Your operating system name and version.
+* Any details about your local setup that might be helpful in troubleshooting.
+* Detailed steps to reproduce the bug.
 
 Documentation improvements
-==========================
+--------------------------
 
-Montague could always use more documentation, whether as part of the
-official Montague docs, in docstrings, or even on the web in blog posts,
-articles, and such.
+Montague could always use more documentation, whether as part of the official
+Montague docs, in docstrings, or even on the web in blog posts, articles, and
+such.
 
 Feature requests and feedback
-=============================
+-----------------------------
 
-The best way to send feedback is to file an issue at https://github.com/inklesspen/montague/issues.
+To send feedback, file an issue at
+https://github.com/inklesspen/montague/issues.
 
-If you are proposing a feature:
+To propose a feature:
 
 * Explain in detail how it would work.
 * Keep the scope as narrow as possible, to make it easier to implement.
-* Remember that this is a volunteer-driven project, and that contributions are welcome :)
+* Remember that this is a volunteer-driven project, and that contributions are
+  welcome.
 
 Development
-===========
+-----------
 
 To set up `montague` for local development:
 
@@ -48,7 +50,9 @@ To set up `montague` for local development:
 
    Now you can make your changes locally.
 
-4. When you're done making changes, run all the checks, doc builder and spell checker with `tox <http://tox.readthedocs.org/en/latest/install.html>`_ one command::
+4. When you're done making changes, run all the checks, doc builder and spell
+   checker with `tox <http://tox.readthedocs.org/en/latest/install.html>`_
+   one command::
 
     tox
 
@@ -60,10 +64,11 @@ To set up `montague` for local development:
 
 6. Submit a pull request through the GitHub website.
 
-Pull Request Guidelines
+Pull request guidelines
 -----------------------
 
-If you need some code review or feedback while you're developing the code just make the pull request.
+If you need some code review or feedback while you're developing the code,
+just make the pull request.
 
 For merging, you should:
 
@@ -72,18 +77,20 @@ For merging, you should:
 3. Add a note to ``CHANGELOG.rst`` about the changes.
 4. Add yourself to ``AUTHORS.rst``.
 
-.. [1] If you don't have all the necessary python versions available locally you can rely on Travis - it will 
-       `run the tests <https://travis-ci.org/inklesspen/montague/pull_requests>`_ for each change you add in the pull request.
+.. [1] If you don't have all the necessary python versions available locally,
+   you can rely on Travis - it will `run the tests
+   <https://travis-ci.org/inklesspen/montague/pull_requests>`_ for each change
+   you add in the pull request. It will be slower than running tests locally,
+   of course.
        
-       It will be slower though ...
-       
-Tips
-----
+Testing tips
+------------
 
 To run a subset of tests::
 
     tox -e envname -- py.test -k test_myfeature
 
-To run all the test environments in *parallel* (you need to ``pip install detox``)::
+To run all the test environments in *parallel* (you need to ``pip install
+detox``)::
 
     detox

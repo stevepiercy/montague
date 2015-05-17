@@ -1,5 +1,5 @@
 montague
-=============================
+========
 
 .. automodule:: montague
     :members:

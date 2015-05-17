@@ -1,5 +1,5 @@
 montague.loadwsgi
-=============================
+=================
 
 .. automodule:: montague.loadwsgi
     :members:

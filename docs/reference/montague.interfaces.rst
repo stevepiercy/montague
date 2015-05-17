@@ -1,5 +1,5 @@
 montague.interfaces
-=============================
+===================
 
 .. automodule:: montague.interfaces
 

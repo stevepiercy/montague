@@ -1,5 +1,5 @@
 montague.ini
-=============================
+============
 
 .. automodule:: montague.ini
     :members:

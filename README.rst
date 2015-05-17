@@ -1,6 +1,16 @@
-===============================
-Montague
-===============================
+Overview
+========
+
+Montague provides functions to load WSGI apps and servers based on configuration files.
+
+Status
+------
+
+Montague is a pre-1.0 project using Semantic Versioning.
+
+.. raw:: html
+
+    <div class="figure">
 
 .. image:: http://img.shields.io/travis/inklesspen/montague/master.png?style=flat
     :alt: Travis-CI Build Status
@@ -30,29 +40,40 @@ Montague
     :target: https://readthedocs.org/projects/montague
     :alt: Documentation Status
 
-Montague provides functions to load WSGI apps and servers based on configuration files.
-          
-* Free software: MIT license
+.. raw:: html
 
-Status
-======
+    </div>
 
-Montague is a pre-1.0 project using Semantic Versioning.
+License
+-------
+
+Free software: MIT license
 
 Installation
-============
+------------
 
 ::
 
     pip install montague
 
-Documentation
-=============
+Usage
+-----
 
-https://montague.readthedocs.org/
+To use Montague in a project::
+
+	import montague
+
+Documentation
+-------------
+
+View online at: https://montague.readthedocs.org/
+
+Build a local version of the docs::
+
+    tox -e docs
 
 Development
-===========
+-----------
 
 To run the all tests run::
 
