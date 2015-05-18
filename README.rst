@@ -8,10 +8,6 @@ Status
 
 Montague is a pre-1.0 project using Semantic Versioning.
 
-.. raw:: html
-
-    <div class="figure">
-
 .. image:: http://img.shields.io/travis/inklesspen/montague/master.png?style=flat
     :alt: Travis-CI Build Status
     :target: https://travis-ci.org/inklesspen/montague
@@ -39,10 +35,6 @@ Montague is a pre-1.0 project using Semantic Versioning.
 .. image:: https://readthedocs.org/projects/montague/badge/?style=flat
     :target: https://readthedocs.org/projects/montague
     :alt: Documentation Status
-
-.. raw:: html
-
-    </div>
 
 License
 -------
