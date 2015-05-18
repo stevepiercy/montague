@@ -48,9 +48,6 @@ output/*/index.html
 # Sphinx
 docs/_build
 
-# virtual envs
-env/
-
 .DS_Store
 *~
 .*.sw[po]
